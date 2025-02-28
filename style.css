@@ -80,20 +80,23 @@ header nav ul li a {
 /* SEGUNDA SESSAO */
 
 .segunda_sessao {
-    padding: 150px;
-    background-color: #5F6F52;
-    display: flex;
-    
+    float: left;
+    margin-top: 0;
+    align-content: center;
+    width: 100%;
 
 }
 
 .segunda_sessao h2{
-    
+    margin-top: 5%;
+    margin-left: 35%;
+    color: #FEFAE0;
 }
 
 .segunda_sessao img {
-    width: 40%;
-    margin-right: 30px;
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 3%;
     border-radius: 5px;
     cursor: pointer;
     float: left;
@@ -103,6 +106,7 @@ header nav ul li a {
 /* TERCEIRA SESSAO*/
 
 .terceira_sessao {
-    padding: 150px;
-    background-color: #C4661F ;
+    margin-top: 40%;
+    background-image: url(img/gyro-1759333_1280.jpg);
+
 }
