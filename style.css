@@ -12,20 +12,21 @@
 
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: #783d19;
+ /*  background-color: #783d19; */
+ background-image: linear-gradient(#783d19, #f9ebc7)
     
 }
 
 /* CABEÇALHO */
 
 header {
-   width: auto;
     padding: 30px;
     background-color: #FEFAE0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    border-radius: 5PX;
     
 }
 
@@ -72,6 +73,11 @@ header nav ul li a {
     text-align: justify;
 }
 
+.primeira_sessao span{
+    font-style: italic;
+    color:blue;
+}
+
 .primeira_sessao img {
     width: auto;
     border-radius: 10px;
@@ -93,6 +99,11 @@ header nav ul li a {
     color: #FEFAE0;
 }
 
+.segunda_sessao hr {
+    width: 50%;
+   
+}
+
 .segunda_sessao img {
     width: 30%;
     margin-top: 3%;
@@ -107,6 +118,48 @@ header nav ul li a {
 
 .terceira_sessao {
     margin-top: 40%;
-    background-image: url(img/gyro-1759333_1280.jpg);
+    padding: 20%;
+    width: 100%;
+    background-image: url(img/people-2602736_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 
+}
+
+.terceira_sessao button {
+    cursor: pointer;
+    background-color:#bdbbb6b7 ;
+    color:  #783d19;
+    font-size: 30px;
+    font-style: italic;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 5%;
+  text-align: center; 
+
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer a i {
+    width: 50px;
+    font-size: 30px;
+    color:  #5F6F52
+    
+}
+
+.autor {
+    font-style: italic;
+    font-size: 10px;
+    padding: 10px;
 }
