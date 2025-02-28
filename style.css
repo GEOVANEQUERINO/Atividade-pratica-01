@@ -11,5 +11,98 @@
 */
 
 body {
-    background-image: url(img/imagem-de-fundo.jpg);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #783d19;
+    
+}
+
+/* CABEÇALHO */
+
+header {
+   width: auto;
+    padding: 30px;
+    background-color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    font-style: italic;
+    color:  #5F6F52;
+
+}
+
+header img {
+    width: 15%;
+    align-items: top;
+    margin-bottom: 10px;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 200px;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #5F6F52;
+}
+
+/*PRIMEIRA SESSÃO*/
+
+.primeira_sessao {
+    padding: 50px;
+    color: #FEFAE0;
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+    
+}
+
+.primeira_sessao p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.primeira_sessao img {
+    width: auto;
+    border-radius: 10px;
+}
+
+/* SEGUNDA SESSAO */
+
+.segunda_sessao {
+    padding: 150px;
+    background-color: #5F6F52;
+    display: flex;
+    
+
+}
+
+.segunda_sessao h2{
+    
+}
+
+.segunda_sessao img {
+    width: 40%;
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    
+}
+
+/* TERCEIRA SESSAO*/
+
+.terceira_sessao {
+    padding: 150px;
+    background-color: #C4661F ;
 }
