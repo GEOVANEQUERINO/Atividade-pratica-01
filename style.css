@@ -28,6 +28,7 @@ header {
     gap: 15px;
     border-radius: 5PX;
     
+    
 }
 
 header h1 {
@@ -55,6 +56,10 @@ header nav ul {
 
 header nav ul li a {
     color: #5F6F52;
+}
+
+header nav ul li a:hover {
+    color: red;
 }
 
 /*PRIMEIRA SESSÃO*/
@@ -108,10 +113,15 @@ header nav ul li a {
     width: 30%;
     margin-top: 3%;
     margin-left: 3%;
+    opacity: 0.5;
     border-radius: 5px;
     cursor: pointer;
     float: left;
     
+}
+
+.segunda_sessao img:hover {
+    opacity: 1.0;
 }
 
 /* TERCEIRA SESSAO*/
