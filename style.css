@@ -151,6 +151,35 @@ header nav ul li a:hover {
     margin-left: 280px;
 }
 
+/*QUARTA SESSAO*/
+
+.quarta_sessao {
+    padding: 150px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.quarta_sessao div{
+    width: 300px;
+    height: 380px;
+   background-color:  #783d19;
+    color: white;
+   text-align: center;
+}
+
+.div-02 {
+    background-image: url(img/feijoada-300-200.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+}
+
+
 /* FOOTER */
 footer {
     margin-top: 5%;
